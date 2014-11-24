@@ -1,0 +1,164 @@
+html,body{
+	padding: 0;
+	margin: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Holiday;
+    src: url(../fonts/Everything_Holiday.otf);
+}
+
+@font-face {
+    font-family: STXingka;
+    src: url(../fonts/stxingka.ttf);
+}
+
+
+.MenuScroll{
+	position: fixed;
+	display: block;
+	right: 0;
+	background-color: rgba(3,3,3,0);
+	height: 100%;
+	width: 2%;
+	z-index: 2;
+}
+
+
+.MenuBar{
+	height: 30px;
+	width: 10px;
+	background-color: orangered;
+	margin-top: 14px;
+	margin-left: 40%;
+	opacity: 0.6;
+}
+
+
+.MenuScroll > div:first-child{
+	margin-top: 240px;
+}
+
+.DivArea{
+	height: 100%;
+	width: 100%;
+    background-color: rgba(124,252,0,1);
+
+}
+
+.FirstArea{
+    border-bottom: 1px solid rgba(148,0,211,1);
+}
+
+.SecondArea{
+    border-bottom: 1px solid rgba(148,0,211,1);
+}
+
+.ThirdArea{
+    border-bottom: 1px solid rgba(148,0,211,1);
+}
+
+.ForthArea{
+    border-bottom: 1px solid rgba(148,0,211,1);
+}
+
+.FifthArea{
+    border-bottom: 1px solid rgba(148,0,211,1);
+}
+
+
+.title{
+    width: 100%;
+    height: 20%;
+    font-family: Holiday;
+    margin-left: 2%;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 10px;
+    letter-spacing: 6px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.col-sm-8{
+    width: 66.67%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.col-sm-6{
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.col-sm-5{
+    width:41.7%;
+    display: inline-block;
+    float: left;
+}
+
+.col-sm-4{
+    width:33.3%;
+    display: inline-block;
+    float: left;
+}
+
+.col-sm-3{
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+.col-sm-2{
+    width: 16.6%;
+    display: inline-block;
+    float: left;
+}
+
+.content{
+    font-family: 微软雅黑;
+    font-size: 20px;
+}
+
+.poem{
+    margin-top: 20px;
+    padding: 20px 0;
+    font-family:STXingka;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 22px;
+    width: auto;
+    background-image: url(../images/flower.png);
+}
+
+.endArea{
+    width: 80%;
+    height: 65%;
+    margin-left: 10%;
+    background-image: url(../images/background/bg3.png);;
+}
+
+.wordArea{
+    width: 32px;
+    height: auto;
+    font-family: STXingka;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 6%;
+    margin-left: 2%;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: 24px;
+}
+
