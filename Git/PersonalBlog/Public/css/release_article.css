@@ -1,0 +1,200 @@
+html,body{
+     padding: 0;
+     margin: 0;
+ }
+
+.header{
+    height: 16%;
+    background-color: #28DBFF;
+}
+
+.title{
+    height: 100%;
+    padding: 0;
+}
+
+.log{
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0;
+}
+
+.log a{
+    text-decoration: none;
+    color: #333;
+}
+
+.log span:first-child{
+    margin-left: 20px;
+}
+
+.log button{
+    margin-right: 20px;
+    border: none;
+    background-color: #28DBFF;
+}
+
+.TitleName{
+    margin-top: 40px;
+}
+
+.content{
+    height: 130%;
+}
+
+.menu{
+    height: 100%;
+    background-color: #009900;
+    padding: 0;
+}
+
+.menu ul{
+    padding-left: 0;
+}
+
+.menu ul li{
+    background-color: #007700;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid 1px black;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    color: #428bca;
+}
+
+.menu ul li span{
+    margin-right: 15px;
+}
+
+.main{
+    height: 100%;
+    background-color: #646464;
+}
+
+.main form{
+    margin-top: 2%;
+}
+
+.status{
+    line-height: 34px;
+    color: #FC0000;
+    font-weight: bold;
+}
+
+
+/*delete页面的css样式*/
+.page{
+    padding:10px;
+    margin-left: 5%;
+}
+.page div{
+    border-left:1px solid #09F;
+    overflow:hidden;
+}
+.page span,.page a {
+    float:left;
+    height:32px;
+    line-height:32px;
+    padding:0px 10px;
+    background:#fff;
+    border:1px solid #09F;
+    border-left:none;
+    font-size:14px;
+}
+.page .current{
+    background:#09f;
+    color:#fff;
+}
+
+.DataMain{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.DataMain table{
+    width: 100%;
+    color: white;
+}
+
+
+.DataMain table thead th{
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #0099FF;
+}
+
+.DataMain table tbody th{
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background-color: #8ED2FF;
+    border-bottom: solid 1px rgba(0,153,255,0.2);
+}
+
+.DataMain button{
+    zoom: 0.7;
+    width: 80px;
+    font-size: 18px;
+}
+
+/*登陆界面css样式*/
+.login{
+    background-image: url("../images/bg.jpg");
+    height: 100%;
+}
+
+.login_panel{
+    margin-top: 15%;
+    min-height: 50%;
+    background-color: #5EB9F5;
+    box-shadow: 2px 2px 2px 2px #60A9E6;
+}
+
+.input_panel{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.portrait{
+    margin-top: 30px;
+}
+
+.form-group{
+    margin-top: 15px;
+}
+
+.input-group{
+    zoom: 1.2;
+}
+
+.btn{
+    width: 50%;
+}
+
+.back_info{
+    margin-top: 5px;
+    min-height: 18px;
+    color: red;
+}
+
+/*添加图片的css样式*/
+.form-group div span{
+    color: #F64208;
+    margin-top: 5px;
+}

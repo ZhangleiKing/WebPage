@@ -1,0 +1,29 @@
+<include file='Common:header_file' />
+<title>文章</title>
+<include file='Common:header' />
+<div class="article_content">
+    <div class="path">
+        <span><strong>V</strong>incent博客</span><a href="">首页</a>>><a href="">软件工程</a>
+    </div>
+    <div class="title">
+        <h1>数据库的最简单实现（分享）</h1>
+    </div>
+    <div class="auTI">
+        <span>某某</span>
+        <span>过去的某天</span>
+    </div>
+    <div class="a_content">
+        <p>
+            一、数据以文本形式保存<br />
+            第一步，就是将所要保存的数据，写入文本文件。这个文本文件就是你的数据库。<br/>
+            为了方便读取，数据必须分成记录，每一条记录的长度规定为等长。比如，假定每条记录的长度是800字节，那么第5条记录的开始位置就在3200字节。
+            大多数时候，我们不知道某一条记录在第几个位置，只知道主键（primary key）的值。这时为了读取数据，可以一条条比对记录。但是这样做效率太低，实际应用中，数据库往往采用B树（B-tree）格式储存数据。
+        </p>
+    </div>
+    <div class="pre_next">
+        <span><a href="">上一篇</a>TCP网络协议</span>
+        <span><a href="">下一篇</a>C++指针</span>
+    </div>
+</div>
+<include file='Common:footer_content' />
+<include file='Common:footer' />
